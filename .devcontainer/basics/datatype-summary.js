@@ -30,3 +30,29 @@ const myFunction = function(){
 }
 
 console.log(typeof scoreValue);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "saurabhSurya"
+let anothername = myYoutubename
+anothername = "surabnaua"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "saurabh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+// stack give copy but heap give reference
